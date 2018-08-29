@@ -18,8 +18,8 @@
 		31EAED9B213631F60070E279 /* GameRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED8D213631F60070E279 /* GameRecipient.m */; };
 		31EAED9C213631F60070E279 /* GameLeftCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED8E213631F60070E279 /* GameLeftCommand.m */; };
 		31EAED9D213631F60070E279 /* GameFireCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED93213631F60070E279 /* GameFireCommand.m */; };
-		31EAEDA02136322B0070E279 /* GenericsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED9F2136322B0070E279 /* GenericsCommand.m */; };
-		31EAEDA3213632410070E279 /* GenericsCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAEDA2213632410070E279 /* GenericsCommandManager.m */; };
+		31EAEDA82136400C0070E279 /* GenericsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAEDA42136400C0070E279 /* GenericsCommand.m */; };
+		31EAEDA92136400C0070E279 /* GenericsCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAEDA72136400C0070E279 /* GenericsCommandManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,10 +57,10 @@
 		31EAED91213631F60070E279 /* GameUpCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameUpCommand.h; sourceTree = "<group>"; };
 		31EAED92213631F60070E279 /* GameRecipient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRecipient.h; sourceTree = "<group>"; };
 		31EAED93213631F60070E279 /* GameFireCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFireCommand.m; sourceTree = "<group>"; };
-		31EAED9E2136322B0070E279 /* GenericsCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GenericsCommand.h; path = ../../../../../../../Documents/GenericsCommand.h; sourceTree = "<group>"; };
-		31EAED9F2136322B0070E279 /* GenericsCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GenericsCommand.m; path = ../../../../../../../Documents/GenericsCommand.m; sourceTree = "<group>"; };
-		31EAEDA1213632410070E279 /* GenericsCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GenericsCommandManager.h; path = ../../../../../../../Documents/GenericsCommandManager.h; sourceTree = "<group>"; };
-		31EAEDA2213632410070E279 /* GenericsCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GenericsCommandManager.m; path = ../../../../../../../Documents/GenericsCommandManager.m; sourceTree = "<group>"; };
+		31EAEDA42136400C0070E279 /* GenericsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericsCommand.m; sourceTree = "<group>"; };
+		31EAEDA52136400C0070E279 /* GenericsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericsCommand.h; sourceTree = "<group>"; };
+		31EAEDA62136400C0070E279 /* GenericsCommandManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericsCommandManager.h; sourceTree = "<group>"; };
+		31EAEDA72136400C0070E279 /* GenericsCommandManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericsCommandManager.m; sourceTree = "<group>"; };
 		31F12B0C2100314E00CAAFAA /* Demo_iOS设计模式之命令模式（1.原理分析） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Demo_iOS设计模式之命令模式（1.原理分析）"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,10 +110,10 @@
 		31EAED81213631F60070E279 /* Generics */ = {
 			isa = PBXGroup;
 			children = (
-				31EAED9E2136322B0070E279 /* GenericsCommand.h */,
-				31EAED9F2136322B0070E279 /* GenericsCommand.m */,
-				31EAEDA1213632410070E279 /* GenericsCommandManager.h */,
-				31EAEDA2213632410070E279 /* GenericsCommandManager.m */,
+				31EAEDA52136400C0070E279 /* GenericsCommand.h */,
+				31EAEDA42136400C0070E279 /* GenericsCommand.m */,
+				31EAEDA62136400C0070E279 /* GenericsCommandManager.h */,
+				31EAEDA72136400C0070E279 /* GenericsCommandManager.m */,
 			);
 			path = Generics;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 				31EAED98213631F60070E279 /* GameRightCommand.m in Sources */,
 				31EAED95213631F60070E279 /* WrapperCommand.m in Sources */,
 				31EAED9B213631F60070E279 /* GameRecipient.m in Sources */,
-				31EAEDA3213632410070E279 /* GenericsCommandManager.m in Sources */,
+				31EAEDA92136400C0070E279 /* GenericsCommandManager.m in Sources */,
 				31AEC5792135209700A2A632 /* main.m in Sources */,
 				31EAED94213631F60070E279 /* WrapperCommandManager.m in Sources */,
 				31EAED9C213631F60070E279 /* GameLeftCommand.m in Sources */,
@@ -232,7 +232,7 @@
 				31EAED96213631F60070E279 /* DynamicCommand.m in Sources */,
 				31EAED97213631F60070E279 /* DynamicCommandManager.m in Sources */,
 				31EAED99213631F60070E279 /* GameDownCommand.m in Sources */,
-				31EAEDA02136322B0070E279 /* GenericsCommand.m in Sources */,
+				31EAEDA82136400C0070E279 /* GenericsCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
