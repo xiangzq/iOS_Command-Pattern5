@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31AEC5792135209700A2A632 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AEC56C2135209700A2A632 /* main.m */; };
+		31EAED94213631F60070E279 /* WrapperCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED7F213631F60070E279 /* WrapperCommandManager.m */; };
+		31EAED95213631F60070E279 /* WrapperCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED80213631F60070E279 /* WrapperCommand.m */; };
+		31EAED96213631F60070E279 /* DynamicCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED85213631F60070E279 /* DynamicCommand.m */; };
+		31EAED97213631F60070E279 /* DynamicCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED86213631F60070E279 /* DynamicCommandManager.m */; };
+		31EAED98213631F60070E279 /* GameRightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED88213631F60070E279 /* GameRightCommand.m */; };
+		31EAED99213631F60070E279 /* GameDownCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED89213631F60070E279 /* GameDownCommand.m */; };
+		31EAED9A213631F60070E279 /* GameUpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED8B213631F60070E279 /* GameUpCommand.m */; };
+		31EAED9B213631F60070E279 /* GameRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED8D213631F60070E279 /* GameRecipient.m */; };
+		31EAED9C213631F60070E279 /* GameLeftCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED8E213631F60070E279 /* GameLeftCommand.m */; };
+		31EAED9D213631F60070E279 /* GameFireCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED93213631F60070E279 /* GameFireCommand.m */; };
+		31EAEDA02136322B0070E279 /* GenericsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAED9F2136322B0070E279 /* GenericsCommand.m */; };
+		31EAEDA3213632410070E279 /* GenericsCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EAEDA2213632410070E279 /* GenericsCommandManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31F12B0A2100314E00CAAFAA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		31AEC56C2135209700A2A632 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31EAED7B213631F60070E279 /* GameCommandProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCommandProtocol.h; sourceTree = "<group>"; };
+		31EAED7D213631F60070E279 /* WrapperCommandManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrapperCommandManager.h; sourceTree = "<group>"; };
+		31EAED7E213631F60070E279 /* WrapperCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrapperCommand.h; sourceTree = "<group>"; };
+		31EAED7F213631F60070E279 /* WrapperCommandManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrapperCommandManager.m; sourceTree = "<group>"; };
+		31EAED80213631F60070E279 /* WrapperCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrapperCommand.m; sourceTree = "<group>"; };
+		31EAED83213631F60070E279 /* DynamicCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicCommand.h; sourceTree = "<group>"; };
+		31EAED84213631F60070E279 /* DynamicCommandManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicCommandManager.h; sourceTree = "<group>"; };
+		31EAED85213631F60070E279 /* DynamicCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicCommand.m; sourceTree = "<group>"; };
+		31EAED86213631F60070E279 /* DynamicCommandManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicCommandManager.m; sourceTree = "<group>"; };
+		31EAED88213631F60070E279 /* GameRightCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRightCommand.m; sourceTree = "<group>"; };
+		31EAED89213631F60070E279 /* GameDownCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDownCommand.m; sourceTree = "<group>"; };
+		31EAED8A213631F60070E279 /* GameLeftCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLeftCommand.h; sourceTree = "<group>"; };
+		31EAED8B213631F60070E279 /* GameUpCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameUpCommand.m; sourceTree = "<group>"; };
+		31EAED8C213631F60070E279 /* GameFireCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameFireCommand.h; sourceTree = "<group>"; };
+		31EAED8D213631F60070E279 /* GameRecipient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRecipient.m; sourceTree = "<group>"; };
+		31EAED8E213631F60070E279 /* GameLeftCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLeftCommand.m; sourceTree = "<group>"; };
+		31EAED8F213631F60070E279 /* GameDownCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDownCommand.h; sourceTree = "<group>"; };
+		31EAED90213631F60070E279 /* GameRightCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRightCommand.h; sourceTree = "<group>"; };
+		31EAED91213631F60070E279 /* GameUpCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameUpCommand.h; sourceTree = "<group>"; };
+		31EAED92213631F60070E279 /* GameRecipient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRecipient.h; sourceTree = "<group>"; };
+		31EAED93213631F60070E279 /* GameFireCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFireCommand.m; sourceTree = "<group>"; };
+		31EAED9E2136322B0070E279 /* GenericsCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GenericsCommand.h; path = ../../../../../../../Documents/GenericsCommand.h; sourceTree = "<group>"; };
+		31EAED9F2136322B0070E279 /* GenericsCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GenericsCommand.m; path = ../../../../../../../Documents/GenericsCommand.m; sourceTree = "<group>"; };
+		31EAEDA1213632410070E279 /* GenericsCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GenericsCommandManager.h; path = ../../../../../../../Documents/GenericsCommandManager.h; sourceTree = "<group>"; };
+		31EAEDA2213632410070E279 /* GenericsCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GenericsCommandManager.m; path = ../../../../../../../Documents/GenericsCommandManager.m; sourceTree = "<group>"; };
+		31F12B0C2100314E00CAAFAA /* Demo_iOS设计模式之命令模式（1.原理分析） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Demo_iOS设计模式之命令模式（1.原理分析）"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31F12B092100314E00CAAFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31AEC5612135209700A2A632 /* Demo_iOS设计模式之命令模式（3.复合命令） */ = {
+			isa = PBXGroup;
+			children = (
+				31AEC56C2135209700A2A632 /* main.m */,
+				31EAED7A213631F60070E279 /* Delegate */,
+				31EAED81213631F60070E279 /* Generics */,
+				31EAED82213631F60070E279 /* Dynamic */,
+				31EAED87213631F60070E279 /* OperationClass */,
+				31EAED7C213631F60070E279 /* Wrapper */,
+			);
+			path = "Demo_iOS设计模式之命令模式（3.复合命令）";
+			sourceTree = "<group>";
+		};
+		31EAED7A213631F60070E279 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				31EAED7B213631F60070E279 /* GameCommandProtocol.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		31EAED7C213631F60070E279 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				31EAED7D213631F60070E279 /* WrapperCommandManager.h */,
+				31EAED7F213631F60070E279 /* WrapperCommandManager.m */,
+				31EAED7E213631F60070E279 /* WrapperCommand.h */,
+				31EAED80213631F60070E279 /* WrapperCommand.m */,
+			);
+			path = Wrapper;
+			sourceTree = "<group>";
+		};
+		31EAED81213631F60070E279 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				31EAED9E2136322B0070E279 /* GenericsCommand.h */,
+				31EAED9F2136322B0070E279 /* GenericsCommand.m */,
+				31EAEDA1213632410070E279 /* GenericsCommandManager.h */,
+				31EAEDA2213632410070E279 /* GenericsCommandManager.m */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		31EAED82213631F60070E279 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				31EAED83213631F60070E279 /* DynamicCommand.h */,
+				31EAED84213631F60070E279 /* DynamicCommandManager.h */,
+				31EAED85213631F60070E279 /* DynamicCommand.m */,
+				31EAED86213631F60070E279 /* DynamicCommandManager.m */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		31EAED87213631F60070E279 /* OperationClass */ = {
+			isa = PBXGroup;
+			children = (
+				31EAED88213631F60070E279 /* GameRightCommand.m */,
+				31EAED89213631F60070E279 /* GameDownCommand.m */,
+				31EAED8A213631F60070E279 /* GameLeftCommand.h */,
+				31EAED8B213631F60070E279 /* GameUpCommand.m */,
+				31EAED8C213631F60070E279 /* GameFireCommand.h */,
+				31EAED8D213631F60070E279 /* GameRecipient.m */,
+				31EAED8E213631F60070E279 /* GameLeftCommand.m */,
+				31EAED8F213631F60070E279 /* GameDownCommand.h */,
+				31EAED90213631F60070E279 /* GameRightCommand.h */,
+				31EAED91213631F60070E279 /* GameUpCommand.h */,
+				31EAED92213631F60070E279 /* GameRecipient.h */,
+				31EAED93213631F60070E279 /* GameFireCommand.m */,
+			);
+			path = OperationClass;
+			sourceTree = "<group>";
+		};
+		31F12B032100314E00CAAFAA = {
+			isa = PBXGroup;
+			children = (
+				31AEC5612135209700A2A632 /* Demo_iOS设计模式之命令模式（3.复合命令） */,
+				31F12B0D2100314E00CAAFAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31F12B0D2100314E00CAAFAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31F12B0C2100314E00CAAFAA /* Demo_iOS设计模式之命令模式（1.原理分析） */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31F12B0B2100314E00CAAFAA /* Demo_iOS设计模式之命令模式（1.原理分析） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F12B132100314E00CAAFAA /* Build configuration list for PBXNativeTarget "Demo_iOS设计模式之命令模式（1.原理分析）" */;
+			buildPhases = (
+				31F12B082100314E00CAAFAA /* Sources */,
+				31F12B092100314E00CAAFAA /* Frameworks */,
+				31F12B0A2100314E00CAAFAA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo_iOS设计模式之命令模式（1.原理分析）";
+			productName = "Demo_iOS设计模式之命令模式（1.原理分析）";
+			productReference = 31F12B0C2100314E00CAAFAA /* Demo_iOS设计模式之命令模式（1.原理分析） */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31F12B042100314E00CAAFAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "项正强";
+				TargetAttributes = {
+					31F12B0B2100314E00CAAFAA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 31F12B072100314E00CAAFAA /* Build configuration list for PBXProject "Demo_iOS设计模式之命令模式（3.复合命令）" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31F12B032100314E00CAAFAA;
+			productRefGroup = 31F12B0D2100314E00CAAFAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31F12B0B2100314E00CAAFAA /* Demo_iOS设计模式之命令模式（1.原理分析） */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31F12B082100314E00CAAFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31EAED9A213631F60070E279 /* GameUpCommand.m in Sources */,
+				31EAED98213631F60070E279 /* GameRightCommand.m in Sources */,
+				31EAED95213631F60070E279 /* WrapperCommand.m in Sources */,
+				31EAED9B213631F60070E279 /* GameRecipient.m in Sources */,
+				31EAEDA3213632410070E279 /* GenericsCommandManager.m in Sources */,
+				31AEC5792135209700A2A632 /* main.m in Sources */,
+				31EAED94213631F60070E279 /* WrapperCommandManager.m in Sources */,
+				31EAED9C213631F60070E279 /* GameLeftCommand.m in Sources */,
+				31EAED9D213631F60070E279 /* GameFireCommand.m in Sources */,
+				31EAED96213631F60070E279 /* DynamicCommand.m in Sources */,
+				31EAED97213631F60070E279 /* DynamicCommandManager.m in Sources */,
+				31EAED99213631F60070E279 /* GameDownCommand.m in Sources */,
+				31EAEDA02136322B0070E279 /* GenericsCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		31F12B112100314E00CAAFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31F12B122100314E00CAAFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31F12B142100314E00CAAFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29KFS3HLY9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31F12B152100314E00CAAFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29KFS3HLY9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31F12B072100314E00CAAFAA /* Build configuration list for PBXProject "Demo_iOS设计模式之命令模式（3.复合命令）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F12B112100314E00CAAFAA /* Debug */,
+				31F12B122100314E00CAAFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31F12B132100314E00CAAFAA /* Build configuration list for PBXNativeTarget "Demo_iOS设计模式之命令模式（1.原理分析）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F12B142100314E00CAAFAA /* Debug */,
+				31F12B152100314E00CAAFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31F12B042100314E00CAAFAA /* Project object */;
+}
